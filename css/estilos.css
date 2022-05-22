@@ -3,15 +3,35 @@
     margin: 0%;
     box-sizing: border-box;
 
-}
-
-div {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    border: solid red;
-    background-color: black;
-    height: 250px;
-    color: aliceblue;
     
-     }
+ }
+ .grid
+ {
+     display: grid;
+     grid-template-columns: repeat(2, 50vh);
+     grid-template-rows: repeat(2, 50vw);
+    
+     
+   
+
+ }
+ .section1
+ {
+     background-color: chartreuse;
+     
+ }
+ .aside
+ {
+     background-color: coral;
+   
+ }
+ .section2
+ {
+     background-color: crimson;
+     ;
+ }
+ .footer
+ {
+     background-color: darkgoldenrod;
+     
+ }
