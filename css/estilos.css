@@ -1,14 +1,17 @@
-*
-{
+* {
     padding: 0%;
     margin: 0%;
- box-sizing: border-box;
+    box-sizing: border-box;
 
 }
-.DivPrincipal
-{
+
+div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    border: solid red;
+    background-color: black;
+    height: 250px;
+    color: aliceblue;
     
-}
+     }
