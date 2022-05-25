@@ -21,6 +21,8 @@
  .section1
  {
      background-color: chartreuse;
+     text-shadow: 2px 2px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
      
  }
  .aside
